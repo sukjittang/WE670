@@ -1,0 +1,44 @@
+/* ตัวอย่าง */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: darkblue;
+}
+
+a {
+  color: teal;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+a:hover {
+  background-color: #f0f0f0;
+}
+
+/* Add this to your globals.css file */
+
+nav ul {
+  list-style: none; /* Remove default bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Arrange menu items horizontally */
+  background-color: #f0f0f0; /* Example background color */
+}
+
+nav ul li {
+  margin-right: 1rem; /* Add spacing between menu items */
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: #333; /* Example link color */
+  padding: 0.5rem 1rem; /* Add padding to links */
+  display: block; /* Make the entire list item clickable */
+}
+
+nav ul li a:hover {
+  background-color: #ddd; /* Example hover effect */
+}

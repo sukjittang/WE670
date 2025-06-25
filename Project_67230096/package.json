@@ -1,0 +1,17 @@
+{
+  "name": "coffee-shop-mongodb-no-image",
+  "version": "1.0.0",
+  "description": "ร้านกาแฟ Node.js + MongoDB (ไม่มีรูป)",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^7.8.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
